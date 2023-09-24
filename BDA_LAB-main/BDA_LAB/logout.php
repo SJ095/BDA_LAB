@@ -1,9 +1,0 @@
-<?php
-session_start();
-unset($_SESSION['usernow']);
-unset($_SESSION['passnow']);
-session_unset();
-session_destroy();
-header("Location:index.php");
-exit();
-?>
