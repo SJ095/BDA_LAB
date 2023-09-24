@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>bda</title>
+</head>
+<body>
+    <!-- <nav class="navbar background">
+        <ul class="nav-list">    
+            <li> <a href="#home"> Home </a></li>
+            <li> <a href="#about"> About </a></li>
+            <li> <a href="#services"> Services </a></li>
+            <li> <a href="#contact"> Contact </a></li>
+        </ul>
+        <div class="rightNav">
+            <input type="text" name="search" id = "search">
+            <button class="btn btn-sm">Search</button>
+        </div>
+    </nav> -->
+	<nav class = "background">
+        <a href="index.php"><img src = "images/logo.png"></a>
+        <div class = "nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hidenMenu()"></i>
+            <ul>
+                <a href="about.html"><img src = "images/logo1.jpg"></a>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick = "showMenu()"></i>
+    </nav>
+    <section class="Login ">
+        <h2 class="text-center">Member Login</h2>
+        <div class="form">
+            <form action="login.php" method="post">
+
+				<input type="text" name="name" id ="name" placeholder="Enter Login username">
+				<input type="password" name="password" id ="password" placeholder="Enter Login Password">
+				<a href="register.php"><strong>New Member?</strong></a>
+				<button class="btn btn-dark" name ="submit-btn" id="submit-btn">Submit</button>
+			</form>
+        </div>
+    </section>
+</body>
+</html>

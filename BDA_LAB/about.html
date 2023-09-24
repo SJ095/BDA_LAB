@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BDA LAB</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;600;700&display=swap"
+ rel="stylesheet">
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+ <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</head>
+<body>
+<section class = "headerr">
+    <nav>
+        <a href="about.html"><img src = "images/logo1.jpg"></a>
+        <div class = "nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hidenMenu()"></i>
+            <ul>
+                <a href="index.php"><img src = "images/logo.png"></a>
+    
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick = "showMenu()"></i>
+    </nav>
+
+<div class="text-box">
+    <h1>About BDA Lab,IIITA</h1>
+    <p>
+IIIT Allahabad
+Core Data Science
+In the past decade, we have witnessed the emergence of data-intensive applications that involve massive data flows and real-time decision-making. The increasing volume of data sources and recent business demands established data science as one of the most rapidly expanding fields. Data science combines mathematics and statistics, highly specialised programming, advanced analytics, artificial intelligence (AI), and machine learning with subject matter expertise to extract actionable insights from an organization's data. The primary objective of the Core Data Science (CDS 2022) workshop is to bring together individuals who are building the foundation for data science and its applications in science, engineering, technology, and society. This workshop will provide a knowledge-sharing platform to highlight advances in mathematical, statistical, and computational methods in the context of data and information sciences. CDS 2022 will also highlight challenges and advancements in data science ethics and fairness. It is essential to raise awareness of data science among researchers and academics in order to conduct innovative research and create a knowledge base.</p>
+
+</div>
+</section>
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+</body>
+</html>
